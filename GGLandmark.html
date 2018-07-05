@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landmark Retrieval</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+            background-image: url('img/background1.jpg');
+            background-size: 100% auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <p style="color: aliceblue; font-family: Roboto ; font-size: 80px;text-align: center;margin: 0;margin-top: 20px">Landmark Retrieval</p>
+    </div>
+    <div id="main" style=" text-align: center;" class="container">
+        <form action="/action_page.php" accept="image/gif, image/jpeg">
+            <p style="font-family: Roboto; font-size: 30px">Your picture goes here:</p> 
+                <input type="text" name="fname" size="75"  style="margin-bottom: 15px;" class="form-control" placeholder="Image link">
+            <span style="font-family: Roboto; font-size: 20px">or upload your picture:  </span><input type="file" name="pic" id="pic"><br>
+            <button class="btn btn-outline-dark" type="submit" style="margin-top: 10px">Search</button>
+        </form>
+    </div>
+    <div id="footer"></div>
+    
+</body>
+</html>
